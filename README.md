@@ -104,20 +104,17 @@ End-to-end pipeline for marketing data
 Tech Stack: Python SQL Pandas Matplotlib Excel Power BI
 🔗 Repository link will be added after final packaging (includes Power BI template and ETL scripts)
 
-💼 retail-ops-intelligence Analytics System
-System
-Pipeline to measure sales performance & conversion
+## 💼 Retail Ops Intelligence System  
+`System`  
+**Pipeline to measure retail performance & diagnose operational issues**
 
-⚙️ ETL from raw sales → cleaned datasets → reporting tables
+- ⚙️ ETL from raw retail data → cleaned datasets → reporting tables  
+- 📊 Streamlit dashboard highlighting ranked probable causes for sales drops  
+- 📄 PDF/Excel summary reports & supporting evidence metrics  
+- 💡 **Business Impact:** Reduces manual diagnostics from 3 hours to ~10 minutes, enabling faster interventions and freeing analysts for strategic work
 
-📊 Produces dashboards (Power BI, Matplotlib) & PDF summaries for executive review
-
-📉 Identified 22% drop‑off between opportunity and closed‑won stages
-
-💡 Business Impact: Enables targeted coaching and a projected 15% conversion uplift
-
-Tech Stack: Python PostgreSQL Pandas Matplotlib FPDF Power BI
-🔗 Repository link will be added after final packaging (includes Power BI dashboard and pipeline code)
+**Tech Stack:** `Python` `Pandas` `Streamlit` `Docker` `SQL`  
+🔗 [View Repository](https://github.com/software-beep888/retail-ops-intelligence)
 
 🧹 Data Cleaner ETL System
 System
