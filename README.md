@@ -1,4 +1,4 @@
-👨‍💻 Félix Olwamba
+👨‍💻 Félix Olwamba Otanga
 Data Analyst | Analytics Engineer
 Helping teams turn messy data into reliable analytics systems and decision-ready insights
 
