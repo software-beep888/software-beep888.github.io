@@ -104,7 +104,7 @@ End-to-end pipeline for marketing data
 Tech Stack: Python SQL Pandas Matplotlib Excel Power BI
 🔗 Repository link will be added after final packaging (includes Power BI template and ETL scripts)
 
-💼 Sales Efficiency Analytics System
+💼 retail-ops-intelligence Analytics System
 System
 Pipeline to measure sales performance & conversion
 
