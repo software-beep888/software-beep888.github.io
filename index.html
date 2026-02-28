@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Félix Olwamba – Senior Data Analyst</title>
+    <!-- Google Font: Inter for clean typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f6f8fa;
+            color: #1e293b;
+            line-height: 1.5;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.02);
+            padding: 3rem 2.5rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.25rem;
+            color: #0f172a;
+        }
+        .subhead {
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: #334155;
+            margin-bottom: 0.5rem;
+        }
+        .positioning {
+            font-size: 1.125rem;
+            color: #475569;
+            border-left: 4px solid #3b82f6;
+            padding-left: 1.25rem;
+            margin: 1.5rem 0 0.5rem 0;
+            font-weight: 400;
+            max-width: 700px;
+        }
+        .micro-about {
+            margin-top: 0.75rem;
+            color: #475569;
+            max-width: 700px;
+            font-size: 1rem;
+        }
+        .micro-about a {
+            color: #3b82f6;
+            text-decoration: none;
+        }
+        .micro-about a:hover {
+            text-decoration: underline;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem 0.75rem;
+            margin: 2rem 0;
+        }
+        .skill-tag {
+            background: #f1f5f9;
+            color: #1e293b;
+            padding: 0.35rem 1rem;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border: 1px solid #e2e8f0;
+        }
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+            margin: 2.5rem 0;
+        }
+        .project-card {
+            background: #f9fafc;
+            border-radius: 20px;
+            padding: 1.75rem;
+            border: 1px solid #eef2f6;
+            transition: box-shadow 0.2s;
+        }
+        .project-card:hover {
+            box-shadow: 0 8px 16px rgba(0,0,0,0.02);
+        }
+        .project-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #0f172a;
+        }
+        .project-sub {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: #3b82f6;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            margin-bottom: 1rem;
+        }
+        .project-desc {
+            color: #334155;
+            margin-bottom: 1.25rem;
+            font-size: 0.95rem;
+        }
+        .project-impact {
+            background: #e6f0ff;
+            color: #1e4a8b;
+            padding: 0.75rem 1rem;
+            border-radius: 12px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border-left: 3px solid #3b82f6;
+            margin-bottom: 1rem;
+        }
+        .project-link {
+            margin-top: 0.75rem;
+        }
+        .project-link a {
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+        .project-link a:hover {
+            text-decoration: underline;
+        }
+        .contact-links {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #e2e8f0;
+            flex-wrap: wrap;
+        }
+        .contact-links a {
+            color: #1e293b;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+        .contact-links a:hover {
+            color: #3b82f6;
+        }
+        .footer-note {
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 0.85rem;
+            color: #94a3b8;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 2rem 1.5rem; }
+            h1 { font-size: 2rem; }
+            .projects-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Félix Olwamba</h1>
+            <div class="subhead">Senior Data Analyst | Analytics Engineer | Revenue Intelligence</div>
+            <div class="positioning">
+                I design production‑ready analytics systems that connect operational data to executive decision‑making.
+            </div>
+            <div class="micro-about">
+                Data professional with a background in analytics engineering, forecasting, and SaaS growth metrics. 
+                Focused on building scalable, testable, and decision‑ready data systems.
+                <br>📁 <a href="https://software-beep888.github.io" target="_blank">software-beep888.github.io</a>
+            </div>
+        </header>
+
+        <div class="skills">
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">dbt</span>
+            <span class="skill-tag">Forecasting</span>
+            <span class="skill-tag">Revenue Intelligence</span>
+            <span class="skill-tag">Power BI</span>
+            <span class="skill-tag">Statistical Modeling</span>
+            <span class="skill-tag">CAC/LTV</span>
+        </div>
+
+        <section>
+            <h2 style="font-size:1.8rem; font-weight:500; margin-bottom:1rem;">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- E‑Commerce Analytics -->
+                <div class="project-card">
+                    <div class="project-title">E‑Commerce Analytics Platform</div>
+                    <div class="project-sub">Flagship · Retail Analytics</div>
+                    <div class="project-desc">
+                        Built integrated Python + SQL analytics pipeline. Processed 50k+ transactions and developed customer segmentation (RFM), churn modeling (ROC AUC 0.89), and revenue breakdown analysis. Executive‑ready reporting interface.
+                    </div>
+                    <div class="project-impact">
+                        📈 Enables SKU‑level optimization, campaign ROI evaluation, and revenue performance forecasting.
+                    </div>
+                    <div class="project-link">
+                        <a href="https://github.com/software-beep888/ecommerce-analytics" target="_blank">View Repository →</a>
+                    </div>
+                </div>
+
+                <!-- BMW Sales Dashboard -->
+                <div class="project-card">
+                    <div class="project-title">BMW Sales Intelligence Dashboard</div>
+                    <div class="project-sub">Power BI · Automotive</div>
+                    <div class="project-desc">
+                        Designed Power BI dashboard with DAX‑driven KPIs covering 9.1B in revenue and 106K units. Modeled product performance and geographic segmentation across 6 regions.
+                    </div>
+                    <div class="project-impact">
+                        🌍 Improves strategic pricing decisions and regional allocation planning.
+                    </div>
+                    <div class="project-link">
+                        <a href="https://github.com/software-beep888/bmw-sales-analysis" target="_blank">View Repository →</a>
+                    </div>
+                </div>
+
+                <!-- GTM CAC/LTV Intelligence System -->
+                <div class="project-card">
+                    <div class="project-title">GTM CAC/LTV Intelligence System</div>
+                    <div class="project-sub">SaaS Growth Analytics</div>
+                    <div class="project-desc">
+                        Engineered CAC/LTV calculation engine using production‑grade Python. Built funnel conversion metrics and retention modeling. Simulated 12 acquisition scenarios to optimize spend.
+                    </div>
+                    <div class="project-impact">
+                        💰 Supports sustainable growth decisions and long‑term profitability validation.
+                    </div>
+                    <div class="project-link">
+                        <a href="https://github.com/software-beep888/gtm-funnel-cac-ltv" target="_blank">View Repository →</a>
+                    </div>
+                </div>
+
+                <!-- Revenue Forecasting Engine (dbt + Stats) -->
+                <div class="project-card">
+                    <div class="project-title">Revenue Forecasting Engine</div>
+                    <div class="project-sub">dbt · Statistical Modeling</div>
+                    <div class="project-desc">
+                        Implemented dbt transformation layer on 24 months of historical MRR. Applied Holt‑Winters time‑series forecasting achieving 6% MAPE on backtest. Built scenario modeling tied to GTM metrics.
+                    </div>
+                    <div class="project-impact">
+                        🔮 Enables revenue predictability, budgeting support, and strategic financial planning.
+                    </div>
+                    <div class="project-link">
+                        <a href="https://github.com/software-beep888/Revenue-_Forecasting-_Senior" target="_blank">View Repository →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="contact-links">
+                <a href="https://github.com/software-beep888" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/felix-olwamba-a41612305" target="_blank">LinkedIn</a>
+                <a href="https://software-beep888.github.io" target="_blank">Portfolio</a>
+                <a href="mailto:olwambafelix@gmail.com">Email</a>
+            </div>
+            <div class="footer-note">
+                © 2026 Félix Olwamba – Built for clarity, not clutter.
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
